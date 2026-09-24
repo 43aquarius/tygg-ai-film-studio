@@ -1,0 +1,97 @@
+{
+  "project_id": "SC_010",
+  "title": "雨夜最后一单",
+  "updated_at": "2026-09-24",
+  "entities": [
+    {
+      "id": "CHR_001",
+      "type": "character",
+      "name": "李远（26岁 · 外卖骑手 · 现在）",
+      "key_facts": [
+        "深夜跑单，收工前最后一单",
+        "八年前住在红星巷17号301",
+        "外套内袋揣一枚红拨片（视觉锚点）",
+        "主色：冷蓝灰 #5B7A8C"
+      ],
+      "related_docs": ["canon/人物设定.md", "story/SC_010_剧本.md", "revisions/r0001/分镜表.md"],
+      "image_asset": "IMG_CHR_001"
+    },
+    {
+      "id": "CHR_002",
+      "type": "character",
+      "name": "少年李远（18岁 · 练琴少年 · 八年前）",
+      "key_facts": [
+        "跨时态订单的收件人",
+        "门边立琴包，琴包上别红拨片",
+        "与CHR_001为同一人双时态",
+        "主色：暖橙 #D98E4A"
+      ],
+      "related_docs": ["canon/人物设定.md", "story/SC_010_剧本.md", "revisions/r0001/分镜表.md"],
+      "image_asset": "IMG_CHR_002"
+    },
+    {
+      "id": "LOC_001",
+      "type": "location",
+      "name": "城市街道（雨夜大远景）",
+      "key_facts": [
+        "开场与收尾大远景（SH_010 / SH_120）",
+        "雨夜低照度，车流灯光，湿面反射"
+      ],
+      "related_docs": ["canon/world-bible.md", "revisions/r0001/分镜表.md"]
+    },
+    {
+      "id": "LOC_002",
+      "type": "location",
+      "name": "红星巷17号（巷道与楼体外观）",
+      "key_facts": [
+        "入巷仰窗（SH_030）",
+        "两侧墙面挤压的窄构图",
+        "三楼301窗为SH_100仰拍对象"
+      ],
+      "related_docs": ["canon/world-bible.md", "revisions/r0001/分镜表.md"]
+    },
+    {
+      "id": "LOC_003",
+      "type": "location",
+      "name": "红星巷17号楼道301（含门口）",
+      "key_facts": [
+        "一次搭建，SH_040 / SH_070 / SH_080 同机位复用",
+        "声控灯分段亮灭",
+        "SH_080为八年前闪回（暖过曝）"
+      ],
+      "related_docs": ["canon/world-bible.md", "revisions/r0001/分镜表.md"]
+    },
+    {
+      "id": "PRP_001",
+      "type": "prop",
+      "name": "电动车（骑手用车）",
+      "key_facts": [
+        "车灯为画面暖点之一",
+        "SH_110侧跟释放的载具"
+      ],
+      "related_docs": ["revisions/r0001/分镜表.md"]
+    },
+    {
+      "id": "PRP_002",
+      "type": "prop",
+      "name": "外卖袋 + 字条",
+      "key_facts": [
+        "SH_060递袋（全片唯一可见手部：右手简化IK）",
+        "字条文字与订单备注两时态一字不差（故事钥匙）",
+        "字条原文：雨大，慢点骑，不急。趁热吃，琴别放下。"
+      ],
+      "related_docs": ["canon/world-bible.md", "story/SC_010_剧本.md", "revisions/r0001/分镜表.md"]
+    },
+    {
+      "id": "PRP_003",
+      "type": "prop",
+      "name": "琴包 + 红拨片",
+      "key_facts": [
+        "红拨片为贯穿双时态的视觉锚点",
+        "18岁少年琴包上的红拨片 与 26岁李远内袋红拨片 同款",
+        "SH_100窗影剪影中少年练琴"
+      ],
+      "related_docs": ["canon/world-bible.md", "revisions/r0001/分镜表.md"]
+    }
+  ]
+}
