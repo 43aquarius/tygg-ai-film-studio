@@ -1,0 +1,57 @@
+{
+  "project_id": "SC_010",
+  "title": "雨夜最后一单",
+  "form": "standalone_short",
+  "duration_sec": 120,
+  "shot_count": 13,
+  "aspect_ratio": "16:9",
+  "target_video_model": "即梦 Seedance",
+  "pacing_profile": "emotional_loop_reveal",
+  "performance_budget": "low",
+  "workflow_version": "TYGG AI FILM STUDIO v3.2.7",
+  "approved_revision": "r0001",
+  "revision_history": [
+    {
+      "id": "r0001",
+      "scope": "剧本 + 13镜分镜",
+      "status": "approved",
+      "confirmed_by": "用户",
+      "note": "用户确认 r0001 后授权批量批准、连续执行至最终交付"
+    }
+  ],
+  "pipeline": {
+    "creative_interview": { "status": "done", "output": "canon/创作访谈.md" },
+    "script_storyboard": { "status": "done", "revision": "r0001", "output": ["story/SC_010_剧本.md", "revisions/r0001/分镜表.md"] },
+    "asset_prompt_pack": { "status": "pending", "output": "assets/" },
+    "blender_previs": { "status": "pending", "output": "blender/" },
+    "reference_video": { "status": "pending", "output": "exports/" },
+    "seedance_prompt_pack": { "status": "pending", "output": "exports/" }
+  },
+  "entities": {
+    "characters": ["CHR_001", "CHR_002"],
+    "locations": ["LOC_001", "LOC_002", "LOC_003"],
+    "props": ["PRP_001", "PRP_002", "PRP_003"]
+  },
+  "beats": [
+    { "id": "BT_01", "name": "铺垫", "timecode": "0:00-0:19", "shots": ["SH_010", "SH_020", "SH_021"] },
+    { "id": "BT_02", "name": "逼近", "timecode": "0:19-0:35", "shots": ["SH_030", "SH_040"] },
+    { "id": "BT_03", "name": "揭示", "timecode": "0:35-0:57", "shots": ["SH_050", "SH_060"] },
+    { "id": "BT_04", "name": "重构", "timecode": "0:57-1:19", "shots": ["SH_070", "SH_080"] },
+    { "id": "BT_05", "name": "落点", "timecode": "1:19-2:00", "shots": ["SH_090", "SH_100", "SH_110", "SH_120"] }
+  ],
+  "shot_timeline": [
+    { "id": "SH_010", "duration_sec": 9, "start": "0:00", "end": "0:09", "desc": "大远景开场 · 城市雨夜" },
+    { "id": "SH_020", "duration_sec": 6, "start": "0:09", "end": "0:15", "desc": "屋檐看单" },
+    { "id": "SH_021", "duration_sec": 4, "start": "0:15", "end": "0:19", "desc": "备注特写（阅读停留≥2.5s）" },
+    { "id": "SH_030", "duration_sec": 7, "start": "0:19", "end": "0:26", "desc": "入巷仰窗" },
+    { "id": "SH_040", "duration_sec": 9, "start": "0:26", "end": "0:35", "desc": "上楼敲门" },
+    { "id": "SH_050", "duration_sec": 9, "start": "0:35", "end": "0:44", "desc": "门开揭示（静止≥2s）" },
+    { "id": "SH_060", "duration_sec": 13, "start": "0:44", "end": "0:57", "desc": "对白递袋 · 情感核心" },
+    { "id": "SH_070", "duration_sec": 11, "start": "0:57", "end": "1:08", "desc": "接袋 + 下楼" },
+    { "id": "SH_080", "duration_sec": 11, "start": "1:08", "end": "1:19", "desc": "闪回同机位（暖过曝）" },
+    { "id": "SH_090", "duration_sec": 9, "start": "1:19", "end": "1:28", "desc": "白气消化" },
+    { "id": "SH_100", "duration_sec": 14, "start": "1:28", "end": "1:42", "desc": "窗影剪影（窗影≥2s）" },
+    { "id": "SH_110", "duration_sec": 11, "start": "1:42", "end": "1:53", "desc": "侧跟释放" },
+    { "id": "SH_120", "duration_sec": 7, "start": "1:53", "end": "2:00", "desc": "固定大远景收尾 · 全片唯一全稳" }
+  ]
+}
